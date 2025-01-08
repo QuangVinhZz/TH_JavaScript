@@ -22,6 +22,5 @@ function calculateBMI() {
     document.getElementById("result").innerHTML = `
       <p><strong>Mark's BMI:</strong> ${markBMI.toFixed(2)}</p>
       <p><strong>John's BMI:</strong> ${johnBMI.toFixed(2)}</p>
-      <p>${markHigherBMI ? "Mark has a higher BMI than John." : "John has a higher BMI than Mark."}</p>
     `;
 }
